@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be6d2bb7-e3ea-41de-bb53-3f075932f9d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Plotting and Charting/Assignment3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Plotting and Charting/Assignment3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +83,18 @@
       <option name="presentableId" value="Default" />
       <updated>1647448829657</updated>
     </task>
+    <task id="LOCAL-00001" summary="Assignment 3 Completed">
+      <created>1647497845366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647497845366</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assignment 3 Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 3 Completed" />
   </component>
 </project>
