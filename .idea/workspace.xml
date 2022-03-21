@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be6d2bb7-e3ea-41de-bb53-3f075932f9d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/FruitDataExample1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/assets/fruit_data_with_colors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Plotting and Charting/Assignment4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/FruitDataExample1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/FruitDataExample1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,13 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647546567121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Applied Plotting and Charting Completed">
+      <created>1647777126481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647777126481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Assignment 3 Completed" />
     <MESSAGE value="Added iris file" />
     <MESSAGE value="Week4 Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week4 Completed" />
+    <MESSAGE value="Applied Plotting and Charting Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applied Plotting and Charting Completed" />
   </component>
 </project>
