@@ -99,8 +99,11 @@ for s in t:
 plt.xlabel('Training set proportion (%)')
 plt.ylabel('accuracy');
 
+# Overfitting - Noting the slighest possible variation like making value of k=1 in kNN since it will take only 1 neibour
+# vote and we are trying to capture very local changes which can affect the decision boundary like for a far away point
 
-# Example function to plot a bar graph with value onto the bar and frame removed 
+
+# Example function to plot a bar graph with value onto the bar and frame removed
 
 # def accuracy_plot():
 #     import matplotlib.pyplot as plt
@@ -146,3 +149,22 @@ plt.ylabel('accuracy');
 #
 #     plt.xticks([0,1,2,3], ['Malignant\nTraining', 'Benign\nTraining', 'Malignant\nTest', 'Benign\nTest'], alpha=0.8);
 #     plt.title('Training and Test Accuracies for Malignant and Benign Cells', alpha=0.8)
+
+
+# Using Regression - Same as k-Nearest neibour in Classification . Regression takes the nearest x - neibours number
+# depending upon the value of k and than return the value of mean of y for the other those x - values
+
+from sklearn.neighbors import KNeighborsRegressor
+from adspy_shared_utilities import load_crime_dataset
+from sklearn.datasets import make_regression
+
+
+X_R1, y_R1 = make_regression(n_samples = 100, n_features=1,
+                             n_informative=1, bias = 150.0,
+                             noise = 30, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X_R1[0::5], y_R1[0::5], random_state = 0) # x[0::3] means step by 5
+
+knnReg = KNeighborsRegressor(n_neighbors=5).fit(X_R1,y_R1)
+print(knnReg.predict(X_test))
+print(knnReg.score(X_train,y_train))
+print(knnReg.score(X_test,y_test))
