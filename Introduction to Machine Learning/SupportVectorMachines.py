@@ -130,7 +130,7 @@ plt.ylim(-2, 15)
 # Small gamma means a larger similarity radius which means less tight bound boundaries and more generralization. So that
 # points farther apart are considered similar.
 # Which results in more points being group together and smoother decision boundaries.
-# Gamma is mostly used when we need tight boundaries but that can overift the method
+# Gamma is mostly used when we need tight boundaries but that can overfit the method
 
 # On the other hand for larger values of gamma, the kernel value to K is more quickly and points have
 # to be very close to be considered similar since the boundaries are so concise. This results in more
@@ -139,6 +139,8 @@ plt.ylim(-2, 15)
 # To control model complexity 3 parameters are important 1 - kernel - Type of kernel default 'rbf'
 # gamma - RBF kernel width
 # C - Regularization paramter
+# The similarity function which checks the similarity between the points in feature space is basically a
+# kernel
 
 # Classification
 

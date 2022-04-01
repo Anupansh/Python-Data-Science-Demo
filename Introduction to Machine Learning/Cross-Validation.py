@@ -45,7 +45,7 @@ X = X_fruits_2d.values
 y = y_fruits_2d.values
 cv_scores = cross_val_score(clf, X, y,cv=3)
 
-print('Cross-validation scores (3-fold):', len(cv_scores))
+print('Cross-validation scores (3-fold):', cv_scores)
 print('Mean cross-validation score (3-fold): {:.3f}'
       .format(np.mean(cv_scores)))
 
@@ -62,5 +62,5 @@ train_scores, test_scores = validation_curve(SVC(), X, y,
                                              param_name='gamma',
                                              param_range=param_range, cv=3)
 
-print(train_scores,test_scores)
-print(train_scores.shape,test_scores.shape)
+# print(train_scores,test_scores)
+# print(train_scores.shape,test_scores.shape)

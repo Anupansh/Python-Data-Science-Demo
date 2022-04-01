@@ -150,6 +150,8 @@ X_F1_poly = poly.fit_transform(X_F1)
 
 X_train, X_test, y_train, y_test = train_test_split(X_F1_poly, y_F1,
                                                     random_state = 0)
+print(X_train.shape)
+print(y_train.shape)
 linreg = LinearRegression().fit(X_train, y_train)
 
 print('(poly deg 2) linear model coeff (w):\n{}'
