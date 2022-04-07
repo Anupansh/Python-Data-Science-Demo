@@ -1,6 +1,6 @@
 # Decision tree perform a set of if else rules on a data and produce a target value. Can be used to get a better
 # idea of more influential features. We continue to narrow down the possible results by asking more and more
-# questions like if yes than than next question with yes or no
+# questions like if yes than next question with yes or no
 
 #  We can form these questions into a tree with a node representing one question and the yes or no possible
 #  answers as the left and right branches from that node that connect the node to the next level of the tree.
@@ -110,4 +110,50 @@ for pair, axis in zip(pair_list, subaxes):
     axis.set_ylabel(iris.feature_names[pair[1]])
 
 plt.tight_layout()
+
+# Gradient Boosted Decision Tree
+
+# Just like random forest gradient Boosted decision tree also works on multiple trees with exception that
+# the next tree in series is a small tree and will try to rectify the mistake of previous trees
+
+# There is another paramter which was not there previously in Random forests known as learning rate which
+# emphasis on upto how much extend the next tree tries to correct the error of previous tree
+# If learning_rate is too high than next tree wil try more hard to correct mistakes of previous tree
+# leading to a more complex tree structure
+# If learning rate is too low than next tree will try less to correct mistakes which will lead to a
+# simple model.
+
+# By default, the learning rate parameter is set to 0.1, the n_estimators parameter giving the number
+# of trees to use is set to 100, and the max depth is set to 3.
+
+# Two ways to learn a less complex gradient boosted tree model are, to reduce the learning rate, so
+# that each tree doesn't try as hard to learn a more complex model, that fixes the mistakes of its
+# predecessor. And to reduce the max_depth parameter for the individual trees in the ensemble.
+
+# Important Parameters
+# n_estimators - Denote the number of small trees to be used
+# learning_rate - How much the next tree will try to rectify mistakes of previous tree
+# max_depth - Maximum depth of a decision tree
+
+# The gradient boosting method assumes, that each trees is a weak learner, and so
+# the max_depth parameter is usually quite small, on the order of three to five, for most applications.
+
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.model_selection import train_test_split
+from adspy_shared_utilities import plot_class_regions_for_classifier_subplot
+from sklearn.datasets import make_blobs
+
+X_D2, y_D2 = make_blobs(n_samples = 100, n_features = 2,
+                        centers = 8, cluster_std = 1.3,
+                        random_state = 4)
+y_D2 = y_D2 % 2
+
+X_train, X_test, y_train, y_test = train_test_split(X_D2, y_D2, random_state = 0)
+fig, subaxes = plt.subplots(1, 1, figsize=(6, 6))
+
+clf = GradientBoostingClassifier().fit(X_train, y_train)
+title = 'GBDT, complex binary dataset, default settings'
+plot_class_regions_for_classifier_subplot(clf, X_train, y_train, X_test,
+                                          y_test, title, subaxes)
+
 plt.show()

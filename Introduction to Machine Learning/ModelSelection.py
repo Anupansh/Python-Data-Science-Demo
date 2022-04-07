@@ -36,6 +36,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
 clf = SVC(kernel='rbf')
 grid_values = {'gamma': [0.001, 0.01, 0.05, 0.1, 1, 10, 100]}
 
+y_pred = clf.best_estimator_.predict(X_test)
+
 # default metric to optimize over grid parameters: accuracy
 grid_clf_acc = GridSearchCV(clf, param_grid=grid_values)
 grid_clf_acc.fit(X_train, y_train)

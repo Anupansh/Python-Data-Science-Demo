@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be6d2bb7-e3ea-41de-bb53-3f075932f9d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ModelEvaluationandSelection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ModelSelection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ROC&amp;AreaUnderTheCurve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/Clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/NaiveBayesClassifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/NeuralNetworks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/RandomForest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/UnsupervisedLearning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/Cross-Validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/Cross-Validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/LinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/SupportVectorMachines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/SupportVectorMachines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/DecisionTrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/DecisionTrees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/ModelEvaluationandSelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ModelEvaluationandSelection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/ModelSelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ModelSelection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/ROC&amp;AreaUnderTheCurve.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ROC&amp;AreaUnderTheCurve.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +50,8 @@
       <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ModelSelection">
-    <configuration name="Cross-Validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.NeuralNetworks">
+    <configuration name="Clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/Cross-Validation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/Clustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DecisionTrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/LinearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/DecisionTrees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ModelEvaluationandSelection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NeuralNetworks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/ModelEvaluationandSelection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/NeuralNetworks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ModelSelection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomForest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/ModelSelection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/RandomForest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ROC&amp;AreaUnderTheCurve" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UnsupervisedLearning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/ROC&amp;AreaUnderTheCurve.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/UnsupervisedLearning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ModelSelection" />
-        <item itemvalue="Python.ROC&amp;AreaUnderTheCurve" />
-        <item itemvalue="Python.ModelEvaluationandSelection" />
-        <item itemvalue="Python.Cross-Validation" />
-        <item itemvalue="Python.LinearRegression" />
+        <item itemvalue="Python.NeuralNetworks" />
+        <item itemvalue="Python.Clustering" />
+        <item itemvalue="Python.UnsupervisedLearning" />
+        <item itemvalue="Python.DecisionTrees" />
+        <item itemvalue="Python.RandomForest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648191177589</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ML-Week3">
+      <created>1648841351967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648841351967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,6 +234,7 @@
     <MESSAGE value="Applied Plotting and Charting Completed" />
     <MESSAGE value="ML-Week1-Completed" />
     <MESSAGE value="ML-Week2-Without Assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="ML-Week2-Without Assignment" />
+    <MESSAGE value="ML-Week3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ML-Week3" />
   </component>
 </project>

@@ -165,6 +165,9 @@ y_score_list = list(zip(y_test[0:20], y_scores_lr[0:20]))
 
 
 # show the probability of positive class for first 20 instances
+
+# predict_proba predicts the probability for each class that is for binary classification first value
+# corresponds to class 0 and second to class 1
 X_train, X_test, y_train, y_test = train_test_split(X, y_binary_imbalanced, random_state=0)
 y_proba_lr = lr.fit(X_train, y_train).predict_proba(X_test)
 y_proba_list = list(zip(y_test[0:20], y_proba_lr[0:20,1]))

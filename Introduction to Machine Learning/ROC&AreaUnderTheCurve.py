@@ -61,6 +61,9 @@ df_cm = pd.DataFrame(confusion_mc,
                      index=[i for i in range(0, 10)], columns=[i for i in range(0, 10)])
 print(df_cm)
 
+a = 1e-01
+print("AAAAAAAAA",a)
+
 plt.figure(figsize=(5.5, 4))
 sns.heatmap(df_cm, annot=True)
 plt.title('SVM Linear Kernel \nAccuracy:{0:.3f}'.format(accuracy_score(y_test_mc,
