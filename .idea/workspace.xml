@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be6d2bb7-e3ea-41de-bb53-3f075932f9d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/Clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/NaiveBayesClassifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/NeuralNetworks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/RandomForest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Introduction to Machine Learning/UnsupervisedLearning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/DecisionTrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/DecisionTrees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/ModelEvaluationandSelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ModelEvaluationandSelection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/ModelSelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ModelSelection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction to Machine Learning/ROC&amp;AreaUnderTheCurve.py" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction to Machine Learning/ROC&amp;AreaUnderTheCurve.py" afterDir="false" />
-    </list>
+    <list default="true" id="be6d2bb7-e3ea-41de-bb53-3f075932f9d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,19 +28,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\Introduction to Machine Learning\readonly" />
+      <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\Applied Data Mining" />
+      <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\Applied Data Mining\resources" />
       <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\Introduction to Machine Learning" />
+      <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\Introduction to Machine Learning\readonly" />
       <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\Introduction to Machine Learning\assets" />
-      <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\Introduction to Plotting and Charting" />
-      <recent name="C:\Users\anupagga\OneDrive - Capgemini\Desktop\Python Data Science\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NeuralNetworks">
-    <configuration name="Clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.SemanticTextSimilarity">
+    <configuration name="Assignment+1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,7 +53,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/Clustering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/Assignment+1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DecisionTrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Case+Study+-+Sentiment+Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction to Machine Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applied Data Mining" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/DecisionTrees.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applied Data Mining/Case+Study+-+Sentiment+Analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NeuralNetworks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SemanticTextSimilarity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction to Machine Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applied Data Mining" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/NeuralNetworks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applied Data Mining/SemanticTextSimilarity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RandomForest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTasksWithNLP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction to Machine Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applied Data Mining" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/RandomForest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applied Data Mining/StringTasksWithNLP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UnsupervisedLearning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TextClassifiersInPython" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction to Machine Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applied Data Mining" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Introduction to Machine Learning/UnsupervisedLearning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applied Data Mining/TextClassifiersInPython.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NeuralNetworks" />
-        <item itemvalue="Python.Clustering" />
-        <item itemvalue="Python.UnsupervisedLearning" />
-        <item itemvalue="Python.DecisionTrees" />
-        <item itemvalue="Python.RandomForest" />
+        <item itemvalue="Python.SemanticTextSimilarity" />
+        <item itemvalue="Python.Case+Study+-+Sentiment+Analysis" />
+        <item itemvalue="Python.TextClassifiersInPython" />
+        <item itemvalue="Python.Assignment+1" />
+        <item itemvalue="Python.StringTasksWithNLP" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +214,49 @@
       <option name="project" value="LOCAL" />
       <updated>1648841351967</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Upto neural networks">
+      <created>1649354626237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649354626237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Applied Text Mining Week 3">
+      <created>1650709695863</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650709695863</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Applied Text Mining Completed">
+      <created>1651301943646</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651301943646</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Applied Text Mining Completed">
+      <created>1651302159044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651302159044</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Applied Text Mining Completed v2">
+      <created>1651302319727</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651302319727</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Applied Text Mining Completed v2">
+      <created>1651303113234</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651303113234</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,6 +267,10 @@
     <MESSAGE value="ML-Week1-Completed" />
     <MESSAGE value="ML-Week2-Without Assignment" />
     <MESSAGE value="ML-Week3" />
-    <option name="LAST_COMMIT_MESSAGE" value="ML-Week3" />
+    <MESSAGE value="Upto neural networks" />
+    <MESSAGE value="Applied Text Mining Week 3" />
+    <MESSAGE value="Applied Text Mining Completed" />
+    <MESSAGE value="Applied Text Mining Completed v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applied Text Mining Completed v2" />
   </component>
 </project>

@@ -3,7 +3,7 @@
 # add a hidden layer which are basically known as activation function.
 # Each activation function than produces a differnet value h0.h1.h2.... and than uses other weights v0,v1..
 # to form the final function y
-# Above phenomenon is called a multi-layer perceptron. Which I will sometimes abbreviate by MLP. These are
+# Above phenomenon is called a multi-layer perceptron. Which sometimes abbreviate by MLP. These are
 # also known as feed-forward neural networks.
 
 # MLPs take this idea of computing weighted sums of the input features, like we saw in logistic regression.

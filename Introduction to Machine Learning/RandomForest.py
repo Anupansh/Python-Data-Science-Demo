@@ -5,7 +5,7 @@
 # Ensemble means combining multiple models to create a more significant and valid one
 
 # Every tree in forest is build with different sample called bootstrap. To support this every tree has n number of
-# datasets which is same as the total number of data. Than rows are choosed randomly and than added to
+# rows which is same as the total number of rows. Than rows are choosed randomly and than added to
 # every decision tree. Therefore each tree can have same row for more than one time and not neccesary
 # that all rows are rows of dataset are there in a tree which shows randomness
 
